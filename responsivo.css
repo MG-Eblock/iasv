@@ -1,0 +1,328 @@
+@media (max-width: 768px) {
+
+    body{
+        height: 100%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5px;
+    }
+
+  
+
+    nav ul a {
+        color: goldenrod;
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 0;
+        text-align: center;
+        padding: 0 0.8em;
+        font-size: 0.5em;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 100%;
+    }
+
+    .titulo {
+        padding: 0 10px;
+        margin-top: 0;
+
+
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-block-end: 0;
+        font-size: 0.7em;
+    }
+
+    h3 {
+        color: white;
+        padding: 15px;
+        font-size: 0.45em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        color: white;
+        padding: 0px 15px;
+        margin-top: 0;
+        font-size: 0.45em;
+        margin-bottom: 0;
+    }
+  
+
+    section {
+        margin-top: 3em;
+        display: flex;
+        gap: 0;
+
+    }
+
+
+    .facebook img{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+
+    }
+
+    .instagram img {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+
+    }
+
+    .gmail img {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        border-radius: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .whats img {
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+    }
+
+    .facebook p{
+        padding: 0 15px;
+        margin-top: 0;
+
+    }
+
+    .instagram p {
+        padding: 0px 15px;
+        margin-top: 0px;
+    }
+
+
+    .gmail p {
+        padding: 0px 15px;
+        margin-top: 0px;
+    }
+
+
+
+    .whats p {
+        padding: 0px 15px;
+        margin-top: 0px;
+    }
+
+    main {
+        min-height: 0%;
+    }
+
+  
+
+
+    .container p {
+        color: brown;
+        font-size: 0.4em;
+        padding: 0 5px;
+        background-color: white;
+    }
+
+    .mission_title {
+        margin-top: 1em;
+    }
+
+    .mission_text {
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+
+    .story_title {
+        margin-top: 1em;
+    }
+
+
+    .projects_title {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .imagem_project {
+        width: 6em;
+        height: 6em;
+        padding: 0 1em;
+    }
+
+    .project_page.titulo {
+        padding: 0 1em;
+        margin-top: 0;
+        font-size: 0.8em;
+    }
+
+    .photo p{
+        padding: 0 0.5em;
+        font-size: 0.3em;
+    }
+
+    .page{
+        font-size: 1em;
+        padding: 0 0.5em;
+    }
+
+
+    
+
+    ul {
+        margin-bottom: 1em;
+    }
+
+    .secondpage {
+        padding: 0 1em;
+    }
+
+    .project_page nav a {
+        font-size: 0.5em;
+
+    }
+
+    .mission_page footer {
+        margin-top: 11em;
+    }
+
+
+    .project_page footer{
+        margin-top: 2.5em;
+        width: 18em;
+    }
+
+}
+
+@media (max-widht: 430px) {
+
+    main{
+        min-height: 0%;
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-widht: 390px) {
+
+    ul{
+        padding: 0;
+    }
+
+    main{
+        min-height: 0%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-widht: 375px) {
+
+    ul {
+        padding: 0;
+    }
+
+    h3 {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    
+    p {
+        font-size: 0.45em;
+    }
+}
+
+@media (max-widht: 360px) {
+
+    ul {
+        padding: 0;
+    }
+
+    h3 {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    
+    p {
+        font-size: 0.45em;
+    }
+
+    .mission_title {
+        margin-top: 1em;
+    }
+
+    .mission_text {
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+
+    .story_title {
+        margin-top: 1em;
+    }
+
+
+    .projects_title {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .imagem_project {
+        width: 6em;
+        height: 6em;
+        padding: 0 1em;
+    }
+
+    .project_page.titulo {
+        padding: 0 1em;
+        margin-top: 0;
+        font-size: 0.8em;
+    }
+
+    .photo p{
+        padding: 0 0.5em;
+        font-size: 0.3em;
+    }
+
+
+
+    ul {
+        margin-bottom: 1em;
+    }
+
+    .secondpage {
+        padding: 0 1em;
+    }
+
+    .project_page nav a {
+        font-size: 0.5em;
+
+    }
+
+    .page{
+        font-size: 1em;
+        padding: 0 0.5em;
+    }
+
+    .mission_page footer {
+        margin-top: 11em;
+    }
+
+
+    .project_page footer{
+        margin-top: 2.5em;
+        width: 18em;
+    }
+
+}
+
+
+
